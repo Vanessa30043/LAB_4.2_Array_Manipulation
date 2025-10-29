@@ -76,6 +76,7 @@ console.log (UlElement)
 
 addItemButton.addEventListener("click", function() {
    // console.log(itemInput);// to check 
+   addItem(itemInput)
         console.log(itemInput.value);
 
 });
